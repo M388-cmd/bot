@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url('imagenes/ia.jpg'); /* Reemplaza con la ruta de tu imagen */
+            background-attachment: fixed; /* Fija la imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            background-position: center; /* Centra la imagen en la pantalla */
+            height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #F3370E;
+            margin: 20px 0;
+        }
+
+        .contenedor {
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para que se vea la imagen */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            margin-top: 50px; /* Espaciado superior para no estar pegado al borde superior */
+        }
+
+        .contenedor p {
+            color: #000;
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .boton-rojo {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .boton-rojo:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+    <script>
+        function redirigir() {
+            window.location.href = "index.html"; // Reemplaza "pagina2.html" con la URL del archivo al que quieres redirigir
+        }
+    </script>
+<nav>
+        <a href="index.html">Home</a>
+        <a href="acerda de.html">About</a>
+    
+    </nav>
+</head>
+<body>
+
+    <h1>Use the power of AI integrated in web</h1>
+    
+    <div class="contenedor">
+        <p>A chatbot is an artificial intelligence (AI) software designed to simulate conversation with users, either through text or voice interactions. It can be used for various purposes, such as customer service, providing information, or automating tasks..</p>
+        <p>We use chatbots like alexa ,cortana, google asistant,chatgpt,gemini,bard,etc...</p>
+        
+        
+        <!-- Botón Rojo con acción de redirección -->
+        <button class="boton-rojo" onclick="redirigir()">Speak to chatbot </button>
+                                                               
+    </div>
+
+</body>
+</html>
